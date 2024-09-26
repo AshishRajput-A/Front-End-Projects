@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3598dc;
+}
+
+.card {
+  background-color: #fff;
+  width: 500px;
+  height: 600px;
+  border-radius: 5px;
+  padding: 35px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: gray;
+  margin-bottom: 30px;
+}
+
+.namedata {
+  flex-direction: row;
+}
+
+.name {
+  padding: 14px;
+  font-size: 15px;
+  border: none;
+  background-color: rgb(232, 227, 227);
+  border-radius: 5px;
+}
+
+input {
+  padding-left: 5px;
+  padding-right: 240px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 15px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  border: none;
+  background-color: rgb(232, 227, 227);
+}
+
+label {
+  font-size: 16px;
+  color: gray;
+}
+
+#checkbox {
+  cursor: pointer;
+}
+
+button {
+  background-color: #3598dc;
+
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+}
+button:hover {
+  background-color: #0979c4;
+}
+
+span {
+  color: #3598dc;
+}
